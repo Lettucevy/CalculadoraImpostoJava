@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Programa {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Renda anual com salário: ");
         double rendaSalarioAnual = scanner.nextDouble();
 
@@ -23,7 +22,6 @@ public class Programa {
 
         CalculadoraImposto calculadora = new CalculadoraImposto(imposto);
         calculadora.gerarRelatorio();
-
         scanner.close();
     }
 }
